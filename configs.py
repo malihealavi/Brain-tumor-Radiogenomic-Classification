@@ -29,8 +29,6 @@ class GlobalVar:
 class ModelConfig:
     classifier_backbone_3D: str = "resnet18"
     classifier_backbone_25D: str = "resnet18"
-    classifier_checkpoint_3D: str =  "best_classifier_3D.pth"
-    classifier_checkpoint_25D: str =  "best_classifier_25D.pth"
     d_25d: int= 256
     nhead_25d: int= 4
     num_layers_25d: int= 3
@@ -51,8 +49,6 @@ class TrainConfig:
     early_stopping_patience: int = 3
     epochs_3D = 8
     epochs_25D = 8
-
-    
 
 
 @dataclass

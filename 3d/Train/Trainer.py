@@ -14,7 +14,7 @@ from tqdm import tqdm
 
 
 from model.Model3d import Model_3D                                   # 3D model
-from data.BrianMRIDataset3D import  BrainMRIDataset3D                # 3D dataset
+from data.BrainMRIDataset3D import  BrainMRIDataset3D                # 3D dataset
 from configs import get_config
 cfg = get_config()
 
@@ -55,7 +55,7 @@ class Trainer():
         self.scaler = scaler
         self.accumulation_steps = 4 
         self.fold_num = fold_num
-        self.model_save_path = f'best_3d_model_fold_{fold_num}.pth'
+        self.model_save_path = f'./assets/3d_weights/best_3d_model_fold_{fold_num}.pth'
         
         # ------------------- Loss & Eval ------------------
         pos_weights = (train_df['MGMT_value'] == 0).sum() / (train_df['MGMT_value'] == 1).sum()  
