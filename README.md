@@ -4,7 +4,52 @@ Predict the **MGMT promoter methylation** status of a brain tumor (a genetic mar
 
 This project is based on the Kaggle competition [RSNA-MICCAI Brain Tumor Radiogenomic Classification](https://www.kaggle.com/competitions/rsna-miccai-brain-tumor-radiogenomic-classification). The model outputs the probability that MGMT is methylated, and is scored with **ROC-AUC**.
 
-> ⚠️ Research prototype. Not for medical use.
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-ee4c2c?logo=pytorch&logoColor=white)
+![timm](https://img.shields.io/badge/timm-EfficientNetV2-green)
+![Albumentations](https://img.shields.io/badge/Monai-Augmentation-purple)
+![scikit--learn](https://img.shields.io/badge/scikit--learn-Metrics-f7931e?logo=scikitlearn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data-150458?logo=pandas&logoColor=white)
+![DICOM](https://img.shields.io/badge/DICOM-Mammography-lightgrey)
+![Kaggle](https://img.shields.io/badge/Kaggle-RSNA%20Breast%20Cancer-20beff?logo=kaggle&logoColor=white)
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="./assets/25weights/output.png" width="400"><br>
+      <sub>Grad-Cam analysis of 25D architecture </sub>
+    </td>
+    <td align="center">
+      <img src="./assets/25weights/output1.png" width="400"><br>
+      <sub>Scan Type Importance on average of 40 Validation cases</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="./assets/25weights/output2.png" width="400"><br>
+      <sub>XAI analysis of 25D architecture</sub>
+    </td>
+    <td align="center">
+      <img src="./assets/output.png" height="300"><br>
+      <sub> mid-slice of 4 Scan Types of a Sample with MGMT = 1  </sub>
+    </td>
+  </tr>
+  <!-- <tr>
+    <td align="center">
+      <img src="assets/25weights/SHAP.png" width="400"><br>
+      <sub>CatBoost SHAP Analysis</sub>
+    </td>
+    <td align="center">
+      <img src="assets/25weights/LIME.png" width="400"><br>
+      <sub>XGBoost lime Analysis</sub>
+    </td>
+  </tr> -->
+</table>
+
+</div>
+
+
 
 ---
 
