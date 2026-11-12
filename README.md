@@ -26,14 +26,15 @@ This project is based on the Kaggle competition [RSNA-MICCAI Brain Tumor Radioge
     </td>
   </tr>
   <tr>
+     <td align="center">
+      <img src="./assets/output.png" width="400"><br>
+      <sub> mid-slice of 4 Scan Types of a Sample with MGMT = 1  </sub>
+    </td>
     <td align="center">
       <img src="./assets/25weights/output2.png" width="400"><br>
       <sub>XAI analysis of 25D architecture</sub>
     </td>
-    <td align="center">
-      <img src="./assets/output.png" height="300"><br>
-      <sub> mid-slice of 4 Scan Types of a Sample with MGMT = 1  </sub>
-    </td>
+   
   </tr>
   <!-- <tr>
     <td align="center">
