@@ -18,7 +18,7 @@ This project is based on the Kaggle competition [RSNA-MICCAI Brain Tumor Radioge
   <tr>
     <td align="center">
       <img src="./assets/25weights/output.png" width="400"><br>
-      <sub>Grad-Cam analysis of 25D architecture </sub>
+      <sub>Grad-Cam output of a sample in 2-5D architecture </sub>
     </td>
     <td align="center">
       <img src="./assets/25weights/output1.png" width="400"><br>
